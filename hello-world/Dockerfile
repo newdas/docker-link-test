@@ -1,3 +1,3 @@
 FROM scratch
-add hello /
-CMD ["/hello"]
+ENV name Docker
+CMD echo "hello $name"
